@@ -1,0 +1,187 @@
+body{
+    background-color: var(--fondo);
+}
+
+.SectionC{
+    display: none;
+    background-color: var(--fondo);    
+}
+
+.CtnImgCrear{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.CamaraCtn{
+    display: flex;
+    margin-top: 70px;
+}
+
+.loader{
+    display: block;
+    margin: auto;
+}
+
+.camara{
+    margin-left: 10.8%;
+}
+
+.luz-camara {
+    margin-top: 8px;
+    padding-bottom: 14px;
+    padding-right: 30px;
+}
+
+.CuadroGrabacion{
+    margin-right: 27.5%;
+    width: 700px;
+    border: 1px solid #572EE5;
+    height: 400px;
+    
+}
+
+.TitleC{
+    padding-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #572EE5;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.TextG{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: var(--subtitle);
+    text-align: center;
+    line-height: 29px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+}
+
+.numbersctn{
+    display: flex;
+}
+
+.number{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #572EE5;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.ctnnumber{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid #572EE5;
+}
+
+.imgcrear{
+   margin-left: 50px;
+}
+
+.CtnlineaC{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.linea{
+    height: 2px;
+    margin-left: 200px;
+    border: 2px;
+    width: 700px;
+    background: #572EE5
+}
+
+.ButtonComenzar{
+    width: 100px;
+    border: 1px solid #572EE5;
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.TComenzar{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 13px;
+    color: #572EE5;
+    text-align: center;
+    height: 20px;
+}
+
+.ButtonComenzar:hover {
+    background: #572EE5;
+}
+.TComenzar:hover{
+    color: white;
+}
+
+.flexBt{
+    display: flex;
+    justify-content: center;
+}
+
+#Grabar{
+    display: none;
+}
+
+#Finalizar {
+    display: none;
+}
+
+#subirGifo{
+    display: none;
+}
+
+.video{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 19px;
+}
+
+.gifgrabado{
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+}
+
+.CtnUpload{
+    display: none;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 288px;
+}
+
+.loaderGif{
+    display: block;
+    margin: auto;
+}
+
+.UploadText{
+    display: block;
+    margin: auto;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.ButtonGrabar{
+    position: absolute;
+    display: none;
+    margin-left: 630px;
+}

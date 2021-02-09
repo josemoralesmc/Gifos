@@ -1,0 +1,20 @@
+.theme-light {
+    --fondo: #FFFFFF ;
+    --linea-superior: #572EE5;
+    --ul: rgba(87,46,229,0.95);
+    --li: #572EE5;
+    --carrousel: #F3F5F8; 
+    --subtitle:#000000;
+    --modal:  rgba(255,255,255,0.90);
+  }
+
+.theme-dark {
+    --fondo: #37383C ;
+    --ul: #000000;
+    --linea-superior:#000000;
+    --li: #FFFFFF;
+    --subtitle: #FFFFFF;
+    --carrousel: #222326; 
+    --modal: rgba(55, 56, 60, 0.90)
+  
+  }

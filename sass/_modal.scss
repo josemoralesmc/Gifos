@@ -1,0 +1,105 @@
+
+
+.modal {
+   
+    display: none;/* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+     /* Black w/ opacity */
+    background: var(--modal);
+}
+
+.modal-close{
+    margin-left: 260px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-modal{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 200px;
+}
+
+.modal-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: var(--subtitle);
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.title-modal{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: var(--subtitle);
+    text-align: center;
+    margin-left: 30px;
+    width: 100px;
+}
+
+.modal-icons{
+    margin-top: 25px;
+    margin-right: 35px;
+}
+
+.modalFav{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 769px) {
+    .modal-close{
+        float: right;
+        margin-top: 100px;
+        margin-right: 200px;
+    }
+
+    .img-modal{
+        display: block;
+        margin-top: 250px;
+        width: 330px;
+        height: 250px;
+    }
+
+    .user{
+        font-family: "Roboto";
+        font-size: 15px;
+        color: var(--subtitle);
+        text-align: center;
+        margin-left: 500px;
+        width: 100px;
+    }
+
+    .title-modal{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: var(--subtitle);
+        text-align: center;
+        margin-left: 500px;
+        width: 200px;
+    }
+
+    .modal-icons{
+    margin-top: 25px;
+    margin-right: 500px;
+}
+
+.modal-fav{
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+    
+}
